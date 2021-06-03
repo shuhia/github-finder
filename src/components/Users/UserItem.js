@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 class UserItem extends Component {
   render() {
-    const { avatar_url, login, html_url } = this.props.user;
+    const { avatar_url, login } = this.props.user;
 
     return (
       <div className="card text-center">
