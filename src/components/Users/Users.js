@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import UserItem from "./UserItem.js";
 import Spinner from "../layout/Spinner";
 import GithubContext from "../../context/github/githubContext";
-
+//
 const Users = function () {
   const githubContext = useContext(GithubContext);
 
