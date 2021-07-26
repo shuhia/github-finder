@@ -26,6 +26,9 @@ export class Navbar extends Component {
           <li>
             <Link to="/About">About</Link>
           </li>
+          <li>
+            <a href="shuhia.com">shuhia.com</a>
+          </li>
         </ul>
       </nav>
     );
