@@ -27,7 +27,7 @@ export class Navbar extends Component {
             <Link to="/About">About</Link>
           </li>
           <li>
-            <a href="https://www.shuhia.com">shuhia.com</a>
+            <a href="https://alexon.vercel.app/">Alex On</a>
           </li>
         </ul>
       </nav>
