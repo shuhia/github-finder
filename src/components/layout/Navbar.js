@@ -17,8 +17,11 @@ export class Navbar extends Component {
     return (
       <nav className="navbar bg-primary">
         <h1>
-          <i className={this.props.icon}>{this.props.title}</i>
+          <Link to="/">
+            <i className={this.props.icon}>{this.props.title}</i>
+          </Link>
         </h1>
+
         <ul>
           <li>
             <Link to="/">Home</Link>
