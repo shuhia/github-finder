@@ -1,9 +1,17 @@
 [build]
 publish="build"
 
+# Add functions path 
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
 # Point any path to index.html 
 [[redirects]]
 from = "/*"
 to = "/index.html"
 status = 200
 force = false
+
+
